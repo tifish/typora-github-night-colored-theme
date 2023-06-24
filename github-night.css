@@ -98,6 +98,7 @@ Tags: dark, github, typora
 
 :root {
     --text-color: #c9d1d9;
+    --list-marker-color: orange;
     --bg-color: #0d1117;
     --side-bar-bg-color: #0d1117;
     --control-text-color: #a9aaab;
@@ -1225,6 +1226,7 @@ body::-moz-selection {
 
 #write ol,
 #write ul {
+    color: var(--list-marker-color);
     padding-left: 2rem;
     font-size: 1.15rem;
     /*  margin: .5rem 0;*/
